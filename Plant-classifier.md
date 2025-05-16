@@ -751,6 +751,19 @@ print(response)
 | **SageMaker**            | Real-time ML at scale        | Higher | Yes          | ML-native, managed |
 
 ---
+✅ Your containerized deployment package (for ECS, Lambda containers, or Docker local) is ready:
+
+👉 [Download plant-classifier-container.zip](sandbox:/mnt/data/plant-classifier-container.zip)
+
+### 📦 What's Included:
+
+* `Dockerfile`: Defines the container image.
+* `app.py`: FastAPI-based image classifier server.
+* `requirements.txt`: Python dependencies.
+* `README.md`: Instructions for Docker and ECS/Fargate deployment.
+* `plant_model_scripted.pt`: Placeholder for your TorchScript model file.
+
+
 
 
 
